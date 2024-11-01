@@ -1,0 +1,261 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.restricted-layout {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.restricted-layout .wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.restricted-layout .wrapper img {
+  width: 100%;
+  max-width: 478px;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 72px;
+}
+.restricted-layout .wrapper h4 {
+  margin-top: 0;
+  color: #1D2327;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 46.88px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.restricted-layout .wrapper p {
+  color: #50575E;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.81px;
+  text-align: center;
+}
+.restricted-layout .wrapper p a {
+  color: #588157;
+  text-decoration: none;
+}
+
+.ultimate-security-for-woocommerce-top-bar {
+  position: fixed;
+  top: 32px;
+  left: 0;
+  right: 0;
+  background-color: #D6FFD5;
+  border-bottom: 1px solid #87AC87;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-current-data {
+  color: #1D2327;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-current-data::before {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  content: url('data:image/svg+xml,<svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23a)"><path d="m12.004 0.0039064c-4.8014-6.9986e-4 -9.141 2.8614-11.031 7.2753l-0.14957 0.04959 0.057987 0.17396c-2.4883 6.1371 0.46956 13.129 6.6066 15.617 1.4334 0.5812 2.9656 0.8796 4.5123 0.8787 6.626 1e-3 11.998-5.3697 11.999-11.996 1e-3 -6.626-5.3697-11.998-11.996-11.999zm9.4107 18.046-0.616-0.6156v-1.4341c7e-4 -0.0619-0.013-0.1231-0.04-0.1788l-1.5597-3.1149v-1.5053c0-0.0659-0.0162-0.1307-0.0473-0.1887-0.031-0.058-0.0759-0.1075-0.1307-0.1441l-1.1997-0.7998c-0.0465-0.031-0.099-0.052-0.1541-0.0615-0.0551-0.00951-0.1116-0.0074-0.1658 0.0063l-1.4693 0.3671-2.4679-1.0589-0.3396-2.3787 0.941-0.9406h2.02l0.6799 1.0218c0.0304 0.04547 0.0697 0.08423 0.1157 0.11387 0.0459 0.02965 0.0975 0.04956 0.1514 0.0585l2.3995 0.39991c0.0643 0.01079 0.1302 0.00557 0.192-0.01519l2.2099-0.73665c1.8536 3.557 1.6553 7.8351-0.5193 11.205zm-1.6494-14.106-0.6503 0.43351-1.8128-0.36273-1.1762-0.39152c-0.0719-0.02446-0.1494-0.02752-0.2231-0.0088l-1.4869 0.37153-0.6519-0.21716 0.4831-0.9662h1.3525c0.0621 7e-5 0.1233-0.01431 0.1788-0.04199l1.3837-0.69185c0.9529 0.49737 1.8295 1.1289 2.6031 1.8752zm-12.145-2.2479 0.9598 0.63987c0.04717 0.03139 0.10047 0.05238 0.15637 0.06159l1.938 0.32313-0.1892 0.56588-1.0098 0.33713c-0.09046 0.03009-0.16718 0.0915-0.21636 0.17317l-1.1486 1.914-1.8448 1.107-2.7194 0.38832c-0.09534 0.01348-0.18261 0.0609-0.24579 0.13356-0.06318 0.07265-0.09803 0.16567-0.09814 0.26195v1.1998c2e-5 0.10606 0.04217 0.20776 0.11718 0.28274l0.68266 0.68266v0.68703l-1.6637-1.1093-0.60347-1.8104c1.1481-2.6235 3.2526-4.711 5.8852-5.838zm-1.1386 13.112-1.8076-0.3619-0.67186-1.3401v-0.9398l1.4901-1.4901 0.55148 1.1034c0.03322 0.0664 0.08431 0.1223 0.14753 0.1614s0.13608 0.0597 0.2104 0.0597h2.5731l1.0834 1.8056c0.0355 0.0592 0.0858 0.1081 0.1458 0.1421 0.0601 0.034 0.1279 0.0519 0.1969 0.0519h1.1118l-0.2799 1.4025-1.5141 1.5141c-0.0372 0.0371-0.06673 0.0811-0.08691 0.1297-0.02017 0.0485-0.03059 0.1005-0.03066 0.153v0.9998l-1.4397 1.0798c-0.04966 0.0372-0.08997 0.0856-0.11774 0.1411-0.02776 0.0555-0.04222 0.1167-0.04223 0.1788v1.4445l-0.49749-0.1647-0.70226-1.7565v-3.9224c2e-5 -0.0922-0.03181-0.1815-0.09011-0.2529-0.05831-0.0715-0.13949-0.1205-0.22982-0.139zm-1.2022 6.1478c-3.7707-2.8289-5.3653-7.7167-3.9884-12.225l0.33233 0.99659c0.02799 0.08435 0.08329 0.15696 0.15717 0.20636l1.9936 1.329-0.4547 0.4551c-0.07501 0.0749-0.11716 0.1767-0.11718 0.2827v1.1998c-6e-5 0.062 0.01431 0.1232 0.04199 0.1787l0.79984 1.5997c0.02733 0.0545 0.06676 0.102 0.11528 0.139 0.04851 0.0369 0.10484 0.0623 0.16466 0.0741l1.6796 0.3356v3.6716c-4e-5 0.0508 0.00959 0.1012 0.02839 0.1484l0.79984 1.9996c0.02163 0.0539 0.05477 0.1025 0.09711 0.1424 0.04234 0.0398 0.09286 0.07 0.14803 0.0883l1.1998 0.3999c0.04007 0.0136 0.08207 0.0206 0.12438 0.0208 0.10606 0 0.20778-0.0421 0.28278-0.1171s0.11713-0.1767 0.11713-0.2828v-1.7996l1.4397-1.0798c0.0496-0.0372 0.0899-0.0856 0.1177-0.1411s0.0422-0.1167 0.0422-0.1788v-1.0342l1.4825-1.4825c0.0558-0.0559 0.0938-0.127 0.1092-0.2044l0.3999-1.9995c0.0116-0.058 0.0102-0.1179-0.0041-0.1753-0.0144-0.0574-0.0412-0.1108-0.0787-0.1566-0.0375-0.0457-0.0847-0.0826-0.1381-0.1079-0.0535-0.0254-0.1119-0.0385-0.171-0.0385h-1.3733l-1.0834-1.8057c-0.03554-0.0591-0.08578-0.1081-0.14583-0.1421-0.06006-0.0339-0.12789-0.0518-0.1969-0.0518h-2.5523l-0.68705-1.3785c-0.02836-0.05673-0.06981-0.10589-0.12092-0.14344-0.0511-0.03755-0.11041-0.06241-0.17302-0.07251-0.06254-0.01081-0.12677-0.00626-0.18717 0.01324-0.0604 0.01951-0.11515 0.05339-0.15956 0.09873l-0.51909 0.51712v-0.63429c-2e-5 -0.10606-0.04217-0.20776-0.11718-0.28274l-0.68265-0.68266v-0.68746l2.4563-0.35073c0.05276-0.00765 0.10347-0.02573 0.14917-0.05318l1.9996-1.1998c0.0561-0.03371 0.10306-0.08068 0.13677-0.13678l1.1238-1.8728 1.0594-0.35352c0.059-0.01935 0.1126-0.05231 0.1566-0.09622 0.0439-0.04391 0.0768-0.09753 0.0962-0.15653l0.3999-1.1998c0.0181-0.05476 0.0241-0.11278 0.0177-0.17009s-0.0252-0.11255-0.055-0.16193-0.0699-0.09174-0.1176-0.12417c-0.0476-0.03243-0.1018-0.05416-0.1586-0.0637l-2.3148-0.38592-0.40671-0.27114c2.5166-0.81911 5.2424-0.71778 7.6912 0.28594l-0.7306 0.36472h-1.5053c-0.0747-4.1e-4 -0.148 0.02009-0.2116 0.05918-0.0636 0.03908-0.115 0.09519-0.1483 0.16197l-0.7999 1.5997c-0.0255 0.05125-0.0398 0.1074-0.0418 0.16463-0.0019 0.05724 0.0084 0.11423 0.0304 0.16713 0.0219 0.05289 0.055 0.10045 0.0969 0.13947 0.0419 0.03901 0.0917 0.06856 0.1461 0.08665l1.1997 0.39992c0.072 0.02445 0.1495 0.02755 0.2232 0.0088l1.4869-0.37152 1.0893 0.36272c0.0156 0.0056 0.0317 0.0099 0.048 0.0128l1.9996 0.39992c0.0515 0.01049 0.1046 0.01067 0.1561 5.1e-4 0.0516-0.01016 0.1006-0.03045 0.1443-0.0597l0.9102-0.60708c0.4479 0.49895 0.8505 1.0368 1.2029 1.6073l-1.9676 0.65586-2.1303-0.35512-0.7039-1.0558c-0.0363-0.05448-0.0855-0.09919-0.1432-0.13022-0.0576-0.03103-0.122-0.04743-0.1875-0.04775h-2.3995c-0.1061 3e-5 -0.2078 0.04217-0.2828 0.11718l-1.1997 1.1998c-0.0439 0.04391-0.0771 0.09746-0.0967 0.1564-0.0196 0.05893-0.0253 0.12163-0.0165 0.18313l0.3999 2.7994c0.0099 0.06805 0.0372 0.1324 0.0793 0.18683 0.042 0.05444 0.0973 0.09711 0.1607 0.1239l2.7994 1.1998c0.0802 0.0347 0.1696 0.0419 0.2543 0.0204l1.4281-0.3572 0.8731 0.5831v1.3857c-7e-4 0.0619 0.013 0.1231 0.04 0.1788l1.5596 3.115v1.5052c1e-4 0.1061 0.0422 0.2078 0.1172 0.2828l0.8366 0.837c-3.7103 4.9456-10.728 5.947-15.673 2.2366z" fill="%23fff"/></g><defs><clipPath id="a"><rect width="24" height="24" fill="%23fff"/></clipPath></defs></svg>');
+  background-color: #3D5A3D;
+  padding: 8px;
+  border-radius: 50%;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-header-text {
+  background-color: #3D5A3D;
+  border: 1px solid #3D5A3D;
+  border-radius: 3px;
+  padding: 10px 16px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-header-text::after {
+  content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 9L12 15L18 9' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  width: 24px;
+  height: 24px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  background-color: #2B3F2B;
+  padding: 10px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item {
+  height: auto !important;
+  width: 261px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .input-wrap {
+  position: relative;
+  flex: 1;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .input-wrap .search-country-input,
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .input-wrap .search-country-input {
+  background-color: #f1f7ff;
+  border-radius: 4px;
+  padding: 8px 10px;
+  height: 32px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .input-wrap .search-result {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  background-color: #f1f7ff;
+  box-shadow: -1px 6px 20px 0px rgba(143, 168, 183, 0.1019607843);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .input-wrap .search-result ul {
+  max-height: 130px;
+  overflow-y: scroll;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .input-wrap .search-result ul::-webkit-scrollbar {
+  width: 4px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .input-wrap .search-result ul::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ffffff;
+  border-radius: 10px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .input-wrap .search-result ul::-webkit-scrollbar-thumb {
+  background: #929292;
+  border-radius: 10px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .input-wrap .search-result ul::-webkit-scrollbar-thumb:hover {
+  background: #929292;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item form.search-country .search-country-btn {
+  background-color: #0167ff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  flex: 0 0 63px;
+  width: 63px;
+  border-style: none;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content .ab-item .title-part {
+  display: inline-block;
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+  border-bottom: 1px solid #f2f2f2;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content ul li {
+  height: auto;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content ul li a {
+  color: #757575;
+  display: flex;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  line-height: 1.2;
+  gap: 5px;
+  align-items: center;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content ul li a img {
+  width: 25px;
+  height: auto;
+  flex: 0 0 25px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content ul li a span {
+  flex: 1;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another .ultimate-security-for-woocommerce-hover-content ul li:hover a {
+  background-color: #588157;
+  color: #ffffff;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-another::before {
+  content: "";
+  background-color: #0143A5;
+  height: 32px;
+  width: 2px;
+  display: block;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-main {
+  position: absolute;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  top: 0;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-main a {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #3D5A3D;
+  border: 1px solid #3D5A3D;
+  border-radius: 3px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-main a:focus {
+  outline: none !important;
+}
+.ultimate-security-for-woocommerce-top-bar .ultimate-security-for-woocommerce-switch-to-main a::before {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  content: url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.0358 10.4625C10.9777 10.4625 11.8985 10.1832 12.6817 9.65988C13.4649 9.13657 14.0753 8.39277 14.4357 7.52253C14.7962 6.6523 14.8905 5.69472 14.7068 4.77088C14.523 3.84705 14.0694 2.99845 13.4034 2.33241C12.7373 1.66636 11.8887 1.21277 10.9649 1.02901C10.0411 0.84525 9.08347 0.939564 8.21324 1.30003C7.34301 1.66049 6.59921 2.27091 6.07589 3.0541C5.55258 3.83729 5.27327 4.75807 5.27327 5.7C5.27387 6.96291 5.77582 8.17393 6.66883 9.06694C7.56184 9.95995 8.77286 10.4619 10.0358 10.4625ZM10.0358 2.0625C10.7552 2.0625 11.4585 2.27584 12.0567 2.67553C12.6548 3.07523 13.1211 3.64332 13.3964 4.30799C13.6717 4.97266 13.7437 5.70404 13.6034 6.40964C13.463 7.11525 13.1166 7.76339 12.6079 8.2721C12.0992 8.78082 11.451 9.12725 10.7454 9.26761C10.0398 9.40796 9.30842 9.33593 8.64376 9.06061C7.97909 8.7853 7.41099 8.31907 7.0113 7.72089C6.6116 7.1227 6.39827 6.41943 6.39827 5.7C6.39867 4.7354 6.78203 3.81042 7.46411 3.12834C8.14618 2.44626 9.07117 2.0629 10.0358 2.0625ZM13.086 12.1988C13.1357 12.058 13.1276 11.9033 13.0633 11.7686C12.9991 11.6339 12.8839 11.5302 12.7433 11.4803C11.518 11.0481 10.207 10.9161 8.92014 11.0951C7.63331 11.2742 6.40815 11.7592 5.34741 12.5094C4.28667 13.2597 3.42126 14.2533 2.82374 15.407C2.22622 16.5606 1.914 17.8408 1.91327 19.14C1.91327 19.2892 1.97253 19.4323 2.07802 19.5378C2.18351 19.6432 2.32658 19.7025 2.47577 19.7025C2.62495 19.7025 2.76803 19.6432 2.87352 19.5378C2.97901 19.4323 3.03827 19.2892 3.03827 19.14C3.03852 18.0205 3.30723 16.9175 3.82185 15.9233C4.33648 14.9292 5.08202 14.0729 5.99593 13.4264C6.90983 12.78 7.96546 12.3621 9.07423 12.2078C10.183 12.0536 11.3126 12.1675 12.3683 12.54C12.5087 12.5896 12.6631 12.5815 12.7976 12.5175C12.9321 12.4536 13.0358 12.339 13.086 12.1988ZM16.7558 15.189C16.3066 15.1892 15.8676 15.3225 15.4943 15.5721C15.1209 15.8217 14.8299 16.1765 14.6582 16.5914C14.4864 17.0064 14.4415 17.463 14.5292 17.9035C14.617 18.344 14.8333 18.7486 15.1509 19.0661C15.4686 19.3836 15.8732 19.5999 16.3137 19.6874C16.7543 19.775 17.2108 19.73 17.6258 19.5581C18.0407 19.3862 18.3953 19.0951 18.6448 18.7216C18.8943 18.3482 19.0275 17.9091 19.0275 17.46C19.0271 16.8577 18.7876 16.2802 18.3617 15.8543C17.9357 15.4285 17.3581 15.1892 16.7558 15.189ZM16.7558 18.606C16.5291 18.6059 16.3076 18.5385 16.1193 18.4125C15.9309 18.2865 15.7842 18.1075 15.6975 17.898C15.6109 17.6886 15.5883 17.4582 15.6326 17.236C15.6769 17.0137 15.7861 16.8096 15.9464 16.6494C16.1067 16.4892 16.3109 16.3801 16.5332 16.336C16.7555 16.2918 16.9859 16.3145 17.1952 16.4013C17.4046 16.4881 17.5835 16.635 17.7094 16.8234C17.8353 17.0118 17.9025 17.2334 17.9025 17.46C17.9023 17.764 17.7814 18.0555 17.5664 18.2704C17.3513 18.4853 17.0598 18.606 16.7558 18.606Z" fill="white"/><path d="M21.5918 17.7796C21.6059 17.5663 21.6059 17.3523 21.5918 17.1391L22.0418 16.0418C22.0938 15.9154 22.098 15.7744 22.0538 15.6451C21.8184 14.9584 21.4521 14.324 20.9753 13.7768C20.8853 13.674 20.7611 13.6074 20.6258 13.5893L19.4483 13.4318C19.2705 13.3129 19.0851 13.2059 18.8933 13.1116L18.1688 12.1711C18.0853 12.0629 17.9653 11.9888 17.8313 11.9626C17.1191 11.8224 16.3864 11.8224 15.6743 11.9626C15.5402 11.9888 15.4202 12.0629 15.3368 12.1711L14.6115 13.1123C14.4195 13.2065 14.2341 13.3135 14.0565 13.4326L12.8798 13.5893C12.7444 13.6074 12.6202 13.674 12.5303 13.7768C12.0534 14.324 11.6871 14.9584 11.4518 15.6451C11.4075 15.7744 11.4117 15.9154 11.4638 16.0418L11.9138 17.1406C11.8996 17.3538 11.8996 17.5678 11.9138 17.7811L11.4638 18.8783C11.4117 19.0047 11.4075 19.1457 11.4518 19.2751C11.6871 19.9617 12.0533 20.5961 12.5303 21.1433C12.6201 21.2462 12.7444 21.3128 12.8798 21.3308L14.0573 21.4883C14.235 21.6072 14.4204 21.7141 14.6123 21.8086L15.3368 22.7491C15.4202 22.8572 15.5402 22.9313 15.6743 22.9576C16.3864 23.0978 17.1191 23.0978 17.8313 22.9576C17.9653 22.9313 18.0853 22.8572 18.1688 22.7491L18.894 21.8078C19.086 21.7136 19.2714 21.6066 19.449 21.4876L20.6258 21.3308C20.7612 21.3128 20.8854 21.2462 20.9753 21.1433C21.453 20.5963 21.82 19.9619 22.056 19.2751C22.1003 19.1457 22.096 19.0047 22.044 18.8783L21.5918 17.7796ZM20.2628 20.2441L19.1685 20.3941C19.0776 20.4062 18.9911 20.4405 18.9165 20.4938C18.7228 20.6313 18.5167 20.7503 18.3008 20.8493C18.2172 20.8869 18.1443 20.9446 18.0885 21.0173L17.4135 21.8918C16.9772 21.957 16.5336 21.957 16.0973 21.8918L15.4223 21.0173C15.3665 20.9446 15.2935 20.8869 15.21 20.8493C14.9941 20.7503 14.7879 20.6313 14.5943 20.4938C14.5197 20.4405 14.4331 20.4062 14.3423 20.3941L13.248 20.2441C12.9735 19.8986 12.7516 19.5144 12.5895 19.1041L13.0095 18.0826C13.0444 17.9979 13.058 17.906 13.0493 17.8148C13.0266 17.5783 13.0266 17.3403 13.0493 17.1038C13.058 17.0126 13.0444 16.9207 13.0095 16.8361L12.5888 15.8153C12.7507 15.4049 12.9726 15.0207 13.2473 14.6753L14.3415 14.5253C14.4324 14.5132 14.5189 14.4789 14.5935 14.4256C14.7872 14.2881 14.9933 14.169 15.2093 14.0701C15.2928 14.0325 15.3657 13.9747 15.4215 13.9021L16.0965 13.0276C16.5328 12.9623 16.9764 12.9623 17.4128 13.0276L18.0878 13.9021C18.1435 13.9747 18.2165 14.0325 18.3 14.0701C18.5159 14.169 18.7221 14.2881 18.9158 14.4256C18.9903 14.4789 19.0769 14.5132 19.1678 14.5253L20.262 14.6753C20.5365 15.0208 20.7584 15.4049 20.9205 15.8153L20.5005 16.8368C20.4656 16.9215 20.4519 17.0134 20.4608 17.1046C20.4834 17.341 20.4834 17.5791 20.4608 17.8156C20.4519 17.9067 20.4656 17.9986 20.5005 18.0833L20.9213 19.1041C20.7593 19.5145 20.5374 19.8987 20.2628 20.2441Z" fill="white"/></svg>');
+}
+
+#wpadminbar #wp-admin-bar-ultimate-security-for-woocommerce-switch-to-country {
+  display: none !important;
+}/*# sourceMappingURL=public-style.css.map */
